@@ -3,9 +3,14 @@
     border: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    flex-direction: column;
+}
 .header{
     color: white;
     background-color: #1F2937;
+    padding: 20px 0;
 }
 
 .headertop{
@@ -36,11 +41,15 @@ a{
 .headpara{
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
 }
 .headerbody{
     display: flex;
     margin-left: 100px;
     margin-right: 100px;
+    justify-content: space-around;
+    
 }
 img{
     max-height: 250px;
